@@ -1,0 +1,4 @@
+#BSUB -n 4
+#BSUB -o "res_40_40.4.out"
+#BSUB -e "res_40_40.4.err"
+mpiexec ./task2 40 40

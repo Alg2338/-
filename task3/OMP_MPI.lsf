@@ -1,0 +1,5 @@
+#BSUB -n 4
+#BSUB -W 00:15
+#BSUB -o "my_job.160_180_4_8_real.out"
+#BSUB -e "my_job.160_180_4_8_real.err"
+OMP_NUM_THREADS=8 mpiexec ./task2 160 180
