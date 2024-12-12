@@ -13,3 +13,5 @@ bsub < task2/MPI_JOB.lsf
 Аналогично предыдущему пункту для файла task3/mf_mpi.cpp
 mpicxx -o task2 task3/mf_mpi.cpp -fopenmp
 bsub < OMP_MPI.lsf
+
+Сетки задаются в соответствующих скриптах запуска
