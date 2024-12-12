@@ -3,5 +3,5 @@
 #BSUB -o "my_job.%J.out"
 #BSUB -e "my_job.%J.err"
 #BSUB -R "span[hosts=1]"
-OMP_NUM_THREADS=32 
+OMP_NUM_THREADS=4 
 ./my_job2
